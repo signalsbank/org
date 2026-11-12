@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: BioSignalsOrg
+  pageTitle: "BioSignalsOrg"
   pageTitleSuffix: "Documentos de la organización del Banco de Señales"
   enableSPA: true
   enablePopovers: true
@@ -158,7 +158,7 @@ plugins:
       position: beforeBody
       priority: 30
   - source: "@quartz-community/page-title"
-    enabled: false
+    enabled: true
     layout:
       position: left
       priority: 10
